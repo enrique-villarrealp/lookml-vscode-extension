@@ -7,6 +7,9 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#comment-line"
 		}
 	],
 	"repository": {
@@ -32,7 +35,15 @@
 					"match": "\\\\."
 				}
 			]
+		},
+
+		"comment-line": {
+			"name": "comment.line.block",
+			"begin": "(//|#)",
+			"end": "\n",
+			"patterns": [{}]
 		}
 	},
+
 	"scopeName": "source.lookml"
 }
