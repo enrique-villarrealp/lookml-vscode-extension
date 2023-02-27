@@ -17,7 +17,14 @@
 			"patterns": [{
 				"name": "keyword.control.lookml",
 				"match": "\\b(if|while|for|return)\\b"
-			}]
+			},
+		
+			{
+				"name": "keyword.view.lookml",
+				"match": "\\b(view|dimension|dimension_group|measure|sql_table_name|hidden|description|sql|primary_key|type|timeframes|value_format)\\b"
+			}
+		
+		]
 		},
 		"strings": {
 			"name": "string.quoted.double.lookml",
