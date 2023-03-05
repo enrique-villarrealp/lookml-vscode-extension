@@ -26,7 +26,7 @@
 
 			{
 				"name": "keyword.view.table",
-				"match": "\\b${TABLE}\\b"
+				"match": "\\$\\{TABLE\\}"
 			}
 		
 		]
