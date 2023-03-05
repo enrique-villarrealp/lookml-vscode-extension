@@ -21,8 +21,12 @@
 		
 			{
 				"name": "keyword.view.lookml",
-				"match": "\\b(view|dimension|dimension_group|measure|sql_table_name|hidden|description|sql|primary_key|type|timeframes|value_format)\\b"
-			}
+				"match": "\\b(view|dimension|dimension_group|measure|sql_table_name|hidden|description|sql|primary_key|type|timeframes|value_format|drill_fields|extends|extension|include|test|set|label|fields_hidden_by_default|suggestions|required_access_grants|cluster_keys|create_process|datagroup_trigger|derived_table|distribution|distribution_style|explore_source|increment_key|increment_offset|interval_trigger|materialized_view|indexes|partition_keys|persist_for|publish_as_db_view|sortkeys|sql|sql_create|sql_trigger_value|table_compression|table_format|final})\\b"
+			},
+
+			{
+				"name": "keyword.view.table",
+				"match": "\\b${TABLE}\\b"
 		
 		]
 		},
